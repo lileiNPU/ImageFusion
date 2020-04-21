@@ -105,7 +105,7 @@ original_img_path = '.\data\img_vis';
 img_file = dir(fullfile(original_img_path, '*.png'));
 img_num = length(img_file) / 2;
 fuse_img_path = '.\fuse_results';
-fuse_mode = {'_ssim_1_skips_1_convs_256_filters', '_ssim_1_skips_1_convs_256_filters_mse'};
+fuse_mode = {'_ssim_1_skips_1_convs_256_filters', '_ssim_1_skips_1_convs_256_filters_mse', '_pearson_1_skips_1_convs_256_filters'};
 
 ssim_a_mode_all = [];
 Nabf_a_mode_all = [];
